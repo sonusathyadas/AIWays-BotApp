@@ -1,6 +1,6 @@
 {
-  "authoringKey": "05b4318a79a54749b81e918393789186",
-  "region": "westus",
-  "appId":"96c421ca-28ab-4ce9-ac80-ffe6891571f6",
-  "versionId":"0.1"
+  "authoringKey": "Your LUIS authoring key",
+  "region": "LUIS app region",
+  "appId":"Your LUIS application Id",
+  "versionId":"LUIS app version"
 }
