@@ -1,6 +1,6 @@
 {
-  "subscriptionKey": "ecfc2f155fde4e14b3b8e88e476a5282",
-  "kbId": "73740887-88c9-4240-b0ec-fa3398d122ac",
-  "hostname":"https://aiways-qna.azurewebsites.net",
-  "endpointKey":"c89b47cf-ead4-477c-88ad-1f6a67db19b0"
+  "subscriptionKey": "Your QnAMaker Subscription Key",
+  "kbId": "Your Knowledgebase Id",
+  "hostname":"QnA Maker host app url",
+  "endpointKey":"QnA Maker Endpoint Key"
 }
