@@ -14,30 +14,29 @@
             "type": "endpoint",
             "name": "production",
             "endpoint": "https://syn-bot.azurewebsites.net/api/messages",
-            "appId": "e1b7fd0c-746b-497e-b1d7-42578b2128d3",
-            "appPassword": "fnksrSLDS4=!lrQSM1435#]",
+            "appId": "Your Bot application Id",
+            "appPassword": "Your Bot App Password",
             "id": "2"
         },
         {
             "type": "luis",
             "name": "bst-luis",
-            "appId": "96c421ca-28ab-4ce9-ac80-ffe6891571f6",
+            "appId": "Your LUIS application Id",
             "version": "0.1",
-            "authoringKey": "05b4318a79a54749b81e918393789186",
-            "subscriptionKey": "7e527d11ac404a22867ceaba8ba5f772",
-            "region": "westus",
+            "authoringKey": "LUIS authoring key",
+            "subscriptionKey": "LUIS subscription Key",
+            "region": "LUIS app region",
             "id": "241"
         },
         {
             "type": "qna",
             "name": "bst-qna",
-            "kbId": "73740887-88c9-4240-b0ec-fa3398d122ac",
-            "subscriptionKey": "ecfc2f155fde4e14b3b8e88e476a5282",
-            "endpointKey": "c89b47cf-ead4-477c-88ad-1f6a67db19b0",
-            "hostname": "https://aiways-qna.azurewebsites.net/qnamaker",
+            "kbId": "Your QnaMaker Knowledgebase Id",
+            "subscriptionKey": "You Qna maker Subscription Key",
+            "endpointKey": "your QnA maker endpoint key",
+            "hostname": "https://<qnamaker-host-app>.azurewebsites.net/qnamaker",
             "id": "0"
         }
     ],
-    "padlock": "",
     "version": "2.0"
 }
