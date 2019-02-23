@@ -1,0 +1,24 @@
+[
+    {
+        "topic": "Ai on Microsoft Platform",
+        "startTime": "2019-9-23 12:00 PM",
+        "endTime": "2019-9-23 1:00 PM",
+        "description": "Join to more about the AI solutions on the Microsoft Azure platform.",
+        "speaker": {
+            "name": "Sonu Sathyadas",
+            "image": "images/sonu.png",
+            "area": "Open source and Azure"
+        }
+    },
+    {
+        "topic": "Demystifying AI, ML & DL with applications",
+        "startTime": "2019-9-23 10:15 AM",
+        "endTime": "2019-9-23 11:45 AM",
+        "description": "Know more about Machine Learning, Deep Learning and Artificial Intellgence concepts and technologies.",
+        "speaker": {
+            "name": "Prashant Sahu",
+            "image": "images/prashant.jpg",
+            "area": "Azure and Mobile"
+        }
+    }
+]

@@ -1,0 +1,29 @@
+{
+    "name": "samplebot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./lib/index.js",
+        "watch": "concurrently --kill-others \"tsc -w\" \"nodemon ./lib/index.js\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/restify": "^7.2.7",
+        "botbuilder": "^4.2.1",
+        "botbuilder-ai": "^4.2.1",
+        "botbuilder-azure": "^4.2.1",
+        "botbuilder-dialogs": "^4.2.1",
+        "botframework-config": "^4.2.1",
+        "dotenv": "^6.2.0",
+        "ludown": "^1.1.0",
+        "restify": "^7.7.0"
+    },
+    "devDependencies": {
+        "typescript": "^3.3.1",
+        "nodemon": "^1.18.9",
+        "concurrently": "^4.1.0"
+    }
+}

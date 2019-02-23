@@ -1,0 +1,342 @@
+{
+  "intents": [
+    {
+      "name": "Speaker"
+    },
+    {
+      "name": "Location"
+    },
+    {
+      "name": "Time"
+    },
+    {
+      "name": "Topic"
+    }
+  ],
+  "entities": [
+    {
+      "name": "subject",
+      "roles": []
+    },
+    {
+      "name": "location",
+      "roles": []
+    },
+    {
+      "name": "person",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "regex_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "who is speaker about bots",
+      "intent": "Speaker",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 21,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "Who is giving the keynote",
+      "intent": "Speaker",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 18,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "who is speaking in the conference room",
+      "intent": "Speaker",
+      "entities": [
+        {
+          "entity": "location",
+          "startPos": 23,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "Where is Sonu's workshop",
+      "intent": "Location",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 9,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "Where is Sonu talking",
+      "intent": "Location",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 9,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "What location is the keynote",
+      "intent": "Location",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 21,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "where can I find the bot talking",
+      "intent": "Location",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 21,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "Where is the Xamarin workshop",
+      "intent": "Location",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 13,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "Where is Sonu speaking",
+      "intent": "Location",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 9,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "Where is the keynote",
+      "intent": "Location",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 13,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "Where is the bot talking",
+      "intent": "Location",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 13,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "What time is Sonu's presentation",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 13,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "When is the presentation by Sonu",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 28,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "When is Sonu's presentation",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 8,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "When is the bot presentation",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 12,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "What time is the bot talk",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 17,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "What time is the Xamarin workshop",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 17,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "What time is the bot presentation",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 17,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "What time is the workshop of Xamarin",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 29,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "What time is the presentation of bot",
+      "intent": "Time",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 33,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "is there a bot presentation",
+      "intent": "Topic",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "is there a bot talk",
+      "intent": "Topic",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "are there any presentations about Xamarin",
+      "intent": "Topic",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 34,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "are there any talks on bot",
+      "intent": "Topic",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 23,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "What is Sonu talking about",
+      "intent": "Topic",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "are there any bot workshops",
+      "intent": "Topic",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 14,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "are there any bot talks",
+      "intent": "Topic",
+      "entities": [
+        {
+          "entity": "subject",
+          "startPos": 14,
+          "endPos": 16
+        }
+      ]
+    }
+  ],
+  "patterns": [],
+  "patternAnyEntities": [],
+  "prebuiltEntities": [],
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "edui",
+  "desc": "",
+  "culture": "en-us"
+}
